@@ -1,0 +1,57 @@
+﻿@model Garden.Core.Entities.Article
+
+@{
+    ViewData["Title"] = "Article";
+}
+
+<h1>@Model.Name</h1>
+<h2>@Model.Date.ToString("d")</h2>
+<div>@Html.Raw(Model.Content)</div>
+
+<br />
+
+
+<h2>Add comment:</h2>
+<ul>
+    <li>
+        <label>Text</label>
+        <input id="txtCommentText" type="text" />
+    </li>
+    <li>
+        <input id="btnCreateComment" type="button" value="Add" onclick="foo()" />
+    </li>
+</ul>
+
+<br />
+
+<ul>
+    @foreach (var item in Model.Comments.OrderByDescending(item => item.Date))
+    {
+        <li>
+            <h2>@item.Date.ToString("d")</h2>
+            <div>@Html.Raw(item.Text)</div>
+        </li>
+    }
+</ul>
+
+@section Scripts{
+    <script>
+        let articleId = '@ViewBag.ArticleId.ToString()';
+
+        function foo() {
+            let obj = {};
+            obj['Text'] = $('#txtCommentText').val();
+            obj['ArticleId'] = articleId;
+
+            $.ajax({
+                url: '@Url.Action("CreateComment", "Home")',
+                type: 'POST',
+                data: {comment: obj}
+            }).done((e) => {
+                console.log('!ajax!');
+            }).fail((e) => {
+                console.log('?ajax?');
+            })
+        }
+    </script>
+}

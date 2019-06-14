@@ -1,0 +1,12 @@
+D:\Garden\Garden.Mock\bin\Debug\netcoreapp2.1\Garden.Mock.deps.json
+D:\Garden\Garden.Mock\bin\Debug\netcoreapp2.1\Garden.Mock.dll
+D:\Garden\Garden.Mock\bin\Debug\netcoreapp2.1\Garden.Mock.pdb
+D:\Garden\Garden.Mock\bin\Debug\netcoreapp2.1\Garden.Core.dll
+D:\Garden\Garden.Mock\bin\Debug\netcoreapp2.1\Garden.Core.pdb
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.csprojAssemblyReference.cache
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.csproj.CoreCompileInputs.cache
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.AssemblyInfoInputs.cache
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.AssemblyInfo.cs
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.csproj.CopyComplete
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.dll
+D:\Garden\Garden.Mock\obj\Debug\netcoreapp2.1\Garden.Mock.pdb

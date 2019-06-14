@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Unity.Microsoft.DependencyInjection" Version="5.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Garden.Core\Garden.Core.csproj" />
+    <ProjectReference Include="..\Garden.DAL\Garden.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\Utils\" />
+    <Folder Include="wwwroot\js\Views\Home\" />
+    <Folder Include="wwwroot\js\Views\Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+</Project>

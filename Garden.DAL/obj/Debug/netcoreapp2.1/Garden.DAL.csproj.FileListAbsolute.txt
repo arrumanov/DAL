@@ -1,0 +1,12 @@
+D:\Garden\Garden.DAL\bin\Debug\netcoreapp2.1\Garden.DAL.deps.json
+D:\Garden\Garden.DAL\bin\Debug\netcoreapp2.1\Garden.DAL.dll
+D:\Garden\Garden.DAL\bin\Debug\netcoreapp2.1\Garden.DAL.pdb
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.csprojAssemblyReference.cache
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.csproj.CoreCompileInputs.cache
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.AssemblyInfoInputs.cache
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.AssemblyInfo.cs
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.dll
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.pdb
+D:\Garden\Garden.DAL\bin\Debug\netcoreapp2.1\Garden.Core.dll
+D:\Garden\Garden.DAL\bin\Debug\netcoreapp2.1\Garden.Core.pdb
+D:\Garden\Garden.DAL\obj\Debug\netcoreapp2.1\Garden.DAL.csproj.CopyComplete

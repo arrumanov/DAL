@@ -1,0 +1,9 @@
+D:\Garden\Garden.Core\bin\Debug\netcoreapp2.1\Garden.Core.deps.json
+D:\Garden\Garden.Core\bin\Debug\netcoreapp2.1\Garden.Core.dll
+D:\Garden\Garden.Core\bin\Debug\netcoreapp2.1\Garden.Core.pdb
+D:\Garden\Garden.Core\obj\Debug\netcoreapp2.1\Garden.Core.csprojAssemblyReference.cache
+D:\Garden\Garden.Core\obj\Debug\netcoreapp2.1\Garden.Core.csproj.CoreCompileInputs.cache
+D:\Garden\Garden.Core\obj\Debug\netcoreapp2.1\Garden.Core.AssemblyInfoInputs.cache
+D:\Garden\Garden.Core\obj\Debug\netcoreapp2.1\Garden.Core.AssemblyInfo.cs
+D:\Garden\Garden.Core\obj\Debug\netcoreapp2.1\Garden.Core.dll
+D:\Garden\Garden.Core\obj\Debug\netcoreapp2.1\Garden.Core.pdb

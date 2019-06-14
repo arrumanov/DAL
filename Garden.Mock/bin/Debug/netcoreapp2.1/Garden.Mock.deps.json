@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Garden.Mock/1.0.0": {
+        "dependencies": {
+          "Garden.Core": "1.0.0"
+        },
+        "runtime": {
+          "Garden.Mock.dll": {}
+        }
+      },
+      "Garden.Core/1.0.0": {
+        "runtime": {
+          "Garden.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Garden.Mock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Garden.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

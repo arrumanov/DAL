@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Garden.Core.Entities.Article>
+
+@{
+    ViewData["Title"] = "Articles";
+}
+
+<h2>Create article:</h2>
+<ul>
+    <li>
+        <label>Name</label>
+        <input id="txtArticleName" type="text" />
+    </li>
+    <li>
+        <label>Content</label>
+        <input id="txtArticleContent" type="text" />
+    </li>
+    <li>
+        <input id="btnCreateArticle" type="button" value="Create" onclick="foo()" />
+    </li>
+</ul>
+
+<br/>
+
+<h2>List article:</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a href="@Url.Action("Article", "Home", new { Id = item.Id })"><h1>@item.Name</h1></a>
+            <h2>@item.Date.ToString("d")</h2>
+            <div>@Html.Raw(item.Content)</div>
+        </li>
+    }
+</ul>
+
+@section Scripts{
+    <script>
+        let categoryType = '@ViewBag.CategoryType.ToString()';
+
+        function foo() {
+            let obj = {};
+            obj['Name'] = $('#txtArticleName').val();
+            obj['Content'] = $('#txtArticleContent').val();
+            obj['CategoryType'] = categoryType;
+
+            $.ajax({
+                url: '@Url.Action("CreateArticle", "Home")',
+                type: 'POST',
+                data: {article: obj}
+            }).done((e) => {
+                console.log('!ajax!');
+            }).fail((e) => {
+                console.log('?ajax?');
+            })
+        }
+    </script>
+}
